@@ -13,6 +13,6 @@ public class Address {
     }
 
     public String toString() {
-        return street + "\n" + city + ", " + state + " " + zip;
+        return street + ", " + city + ", " + state + " " + zip;
     }
 }
